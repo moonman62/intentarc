@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2024", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "rootDir": ".",
+    "outDir": "dist/web-types",
+    "types": ["vite/client"]
+  },
+  "include": [
+    "src/web/contracts.ts",
+    "src/web/client/**/*.ts",
+    "src/web/client/**/*.tsx"
+  ],
+  "exclude": ["dist", "**/*.test.ts", "**/*.test.tsx"]
+}

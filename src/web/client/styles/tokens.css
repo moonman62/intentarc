@@ -1,0 +1,31 @@
+:root {
+  color-scheme: light;
+  --ia-canvas: #f3efe5;
+  --ia-sidebar: #e6dfd0;
+  --ia-surface: #faf7ef;
+  --ia-surface-raised: #fffdf7;
+  --ia-border: #d4ccbd;
+  --ia-border-strong: #8f887b;
+  --ia-text: #282d29;
+  --ia-text-muted: #687069;
+  --ia-accent: #597f74;
+  --ia-accent-soft: #c8d8d0;
+  --ia-attention: #b9694f;
+  --ia-focus: #315c53;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ia-canvas: #171b19;
+  --ia-sidebar: #1d2320;
+  --ia-surface: #222925;
+  --ia-surface-raised: #28302c;
+  --ia-border: #37413c;
+  --ia-border-strong: #748078;
+  --ia-text: #eee9df;
+  --ia-text-muted: #aeb7b1;
+  --ia-accent: #78a596;
+  --ia-accent-soft: #355248;
+  --ia-attention: #d18365;
+  --ia-focus: #b8d4cb;
+}
